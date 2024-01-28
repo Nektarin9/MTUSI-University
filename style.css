@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+    background-color: rgb(35, 39, 47);
+  }
+  html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+    margin: auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  a,
+  u {
+    text-decoration: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(55, 65, 81);
+  }
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .pContent {
+    color: #fcfcfc;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+  }

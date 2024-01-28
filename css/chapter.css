@@ -1,0 +1,63 @@
+.conitaner {
+  max-width: 50%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf_iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  border: none;
+}
+
+.leftContainer {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  border-radius: 0 0 0 10px;
+  width: 150px;
+
+  background-color: rgb(26, 28, 34);
+}
+.list {
+  margin: 10px auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+.aList {
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.aList:hover {
+  color: rgb(8, 126, 164);
+  transform: 0.3s;
+}
+.aList_target {
+  color: rgb(8, 126, 164);
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+.aList2 {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.aList2:hover {
+  color: rgb(8, 126, 164);
+  transform: 0.3s;
+}
