@@ -2,10 +2,10 @@ import { removeNumbers } from "./utils.js";
 
 const pdf = document.querySelector(".pdf_iframe");
 pdf.src =
-	"../pdf.js/web/viewer.html?file=/document/CHAPTER_1/Practical_lesson_1.pdf";
+	"../pdf_js/web/viewer.html?file=/document/CHAPTER_1/Practical_lesson_1.pdf";
 	/* Проверям куда нажали, практические занятия, лекции или тестирование */
 function selectPdf(pdf, count, CHAPTER) {
-	const url = "../pdf.js/web/viewer.html?file=/document/";
+	const url = "../pdf_js/web/viewer.html?file=/document/";
 	if (removeNumbers(count) === "lesson_") {
 		pdf.src = url + CHAPTER.practical_lesson[count];
 	} else if (removeNumbers(count) === "lectures_") {
